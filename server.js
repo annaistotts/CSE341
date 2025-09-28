@@ -1,4 +1,8 @@
 require('dotenv').config();
+
+const uri = (process.env.MONGODB_URI || '').trim();
+console.log('MONGODB_URI present?', !!uri, 'host hint:', uri.split('@')[1]?.split('/')[0]);
+
 const express = require('express');
 const cors = require('cors');
 const { connectToDB } = require('./db');
