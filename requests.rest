@@ -6,5 +6,11 @@ GET {{base}}/
 ### All contacts
 GET {{base}}/contacts
 
-### One contact by query param (replace the id)
+### Anna
 GET {{base}}/contacts/by-id?id=68d8a8514afd2b99fea12cb3
+
+### Ethan
+GET {{base}}/contacts/by-id?id=68d8a8f94afd2b99fea12cbc
+
+### Mike
+GET {{base}}/contacts/by-id?id=68d8a9554afd2b99fea12cc2
