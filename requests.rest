@@ -1,0 +1,10 @@
+@base = http://localhost:3000
+
+### Health
+GET {{base}}/
+
+### All contacts
+GET {{base}}/contacts
+
+### One contact by query param (replace the id)
+GET {{base}}/contacts/by-id?id=68d8a8514afd2b99fea12cb3
